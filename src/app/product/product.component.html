@@ -1,0 +1,8 @@
+<div *ngFor="let product of products; let i = index">
+  <span>{{ product.img }} {{ product.name }}</span>
+
+  <span
+    >{{ product.price }}€
+    <button (click)="addToCart(product)">BUY</button></span
+  >
+</div>
