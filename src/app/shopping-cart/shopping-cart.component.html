@@ -1,1 +1,10 @@
-<p>shopping-cart works!</p>
+<h3>Shopping cart</h3>
+<p *ngIf="!cartItems.length"><em>Your cart is empty...</em></p>
+<div class="grid" *ngFor="let product of cartItems; let i = index">
+  <span>{{ product.img }} {{ product.name }}</span>
+
+  <span> - {{ product.amount }} + </span>
+  <span>{{ product.price * product.amount }}€ </span>
+  <button (click)="deleteProduct(product.id)">🗑️</button>
+</div>
+<div class="total">Total: {{ totalPrice() }}€</div>

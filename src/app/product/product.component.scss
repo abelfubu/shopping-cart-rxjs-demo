@@ -1,6 +1,9 @@
 :host {
   display: block;
   padding: 16px;
+  display: grid;
+  grid-template-columns: auto 250px;
+  grid-gap: 32px;
 
   div {
     padding: 16px 6px;
@@ -16,5 +19,11 @@
     background-color: #232323;
     margin-left: 8px;
     border-radius: 3px;
+  }
+}
+
+@media (max-width: 720px) {
+  :host {
+    display: block;
   }
 }
