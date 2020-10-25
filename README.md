@@ -1,27 +1,25 @@
 # App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+Este es un proyecto para documentar como hacer la gestión de un carrito de la compra con observables de rxjs en una aplicación con angular.
 
-## Development server
+### Objetivos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Aprender conceptos básicos de como funcionan los subjects y observables de rxjs.
+- Gestión de problemas de memory leak.
+- Aprendiendo a comunicar datos entre multiples componentes.
 
-## Code scaffolding
+![Landing Page del proyecto](https://raw.githubusercontent.com/abelfubu/shopping-cart-rxjs-demo/master/src/assets/Landing.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Lenguajes
 
-## Build
+- Angular
+- Typescript
+- Sass
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Autor
 
-## Running unit tests
+[Abel de la Fuente - Perfil](https://abelfubu.github.io/abelfubu/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+[Github](https://github.com/abelfubu)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+[Linkedin](https://www.linkedin.com/in/abel-de-la-fuente-53b0291aa/)
